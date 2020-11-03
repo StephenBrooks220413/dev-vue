@@ -108,30 +108,47 @@
         </div>
       </div>
     </div>
-    <br>
+    <br> <br> <br>
     <div class="jumbotron text-center">
-      <form name="contact" method="POST" data-netlify="true">
-      <p>
-        <label>Your Name: <input type="text" name="name" /></label>   
-      </p>
-      <p>
-        <label>Your Email: <input type="email" name="email" /></label>
-      </p>
-      <p>
-        <label>Your Role: <select name="role[]" multiple>
-          <option value="leader">Leader</option>
-          <option value="follower">Follower</option>
-        </select></label>
-      </p>
-      <p>
-        <label>Message: <textarea name="message"></textarea></label>
-      </p>
-      <p>
-        <button type="submit">Send</button>
-      </p>
-    </form>
+      <article>
+        <h1>Made For the Reason</h1>
+        <section>
+          Make code build for you and just maintain the logic
+        </section>
+      </article>
     </div>
-    <br><br>
+    <br><br><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary btn1">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary btn2">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary btn3">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -167,7 +184,7 @@ export default {
   -o-background-size: cover;
   background-size: cover;
   height: 80vh;
-  padding-top: 22%;
+  padding-top: 10%;
   padding-left: 10%;
   color: red;
 }
@@ -177,6 +194,25 @@ export default {
 .homeBg h3 {
   color: red;
 }
+
+.btn1:hover{
+  transition-delay: 0.2s;
+  background-color: white;
+  color: black;
+}
+
+.btn2:hover{
+  transition-delay: 0.2s;
+  background-color: white;
+  color: black;
+}
+
+.btn3:hover{
+  transition-delay: 0.2s;
+  background-color: white;
+  color: black;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap");
 :root {
   --blue: #007bff;
